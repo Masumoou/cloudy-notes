@@ -1,3 +1,7 @@
 flask==3.0.3
 pytest==7.4.0  # For running tests
+- name: Install dependencies
+  run: |
+    python -m pip install --upgrade pip
+    pip install -r app/requirements.txt  # Adjusted if it's inside the 'app' folder
 
